@@ -1,5 +1,9 @@
 ## Interpretability of Neural Networks
 
+"In spite of the practical successes, one should keep in mind that
+interpreting deep networks remains a young and emerging field
+of research." @Montavon2018. 
+
 Artificial neural networks are loosely inspired by the architecture of the neural cells in the brain: A network of connected cells. 
 Mathematically, neural networks are chained matrix multiplications that map the first 'layer', your features, to the outcome of interest. 
 The backpropagation method updates the multiplication weights to minimalize the predicted and actual outcome. 
@@ -20,6 +24,17 @@ After reading this Chapter you will have a few pointers how to make networks int
 Your guide actually does not know much about each animal in this kind of zoo, but knows where to find the cages. 
 Let's begin!
 The feeding of the penguins is about to start!
+
+A good overview was written by @Montavon2018:
+They focus on post-hoc interpretability, which work on an already trained model. 
+The alternative is to incorporate probability into the structure of the model. 
+TODO: Sort methods in this chapter by those categories. 
+
+"In spite of the practical successes, one should keep in mind that
+interpreting deep networks remains a young and emerging field
+of research." @Montavon2018. 
+
+
 
 ```{r, fig.cap="Neural network architecture overview from www.asimovinstitute.org/neural-network-zoo/. This is just the broadest of classification. Each type of network can have different number of layers and so on. "}
 knitr::include_graphics("images/neural-zoo.png")
