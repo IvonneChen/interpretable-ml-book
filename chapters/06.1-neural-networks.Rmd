@@ -1,4 +1,4 @@
-## Interpretability of Neural Networks
+## Interpretability of Neural Networks {#nn}
 
 Artificial neural networks are loosely inspired by the architecture of the neural cells in the brain: A network of connected cells. 
 Mathematically, neural networks are chained matrix multiplications that map the first 'layer', your features, to the outcome of interest. 
@@ -35,6 +35,19 @@ TODO: Check if it fits in here
 #### Looking at live activations
 @Yosinski2015
 https://github.com/yosinski/deep-visualization-toolbox
+
+Understanding Neural Networks Through Deep Visualization
+This is for CNNs. 
+They present two tools: 
+First tool visualizes the activations produced at each layer. 
+The second tool shows the activations, but how they respond to parts of the original images. 
+
+```{r right-for-the-right-reasons-1, fig.cap = 'Example from "Deep Visualization Toolbox"'}
+knitr::include_graphics("images/deep-viz-toolbox.png")
+```
+
+
+
 
 #### Optimizing images
 See google cat thing.

@@ -2,3 +2,13 @@
 
 Some interpretability methods are tied to a certain class or type of machine learning model.
 Model-specific methods are specific, because they require insights into the model parameters, structure or learning process.
+
+The arguably most successful broad classes of algorithms are deep neural networks and tree based ensembles. 
+For both this book will list some pointers where to look to get ideas how to make neural networks and tree based ensemble methods interpretable. 
+
+Chapter \@ref(nn) introduces interpretability methods specific for neural networks.
+
+Chapter \@ref(tree-ensemble) does the same for tree-based ensembles.
+
+
+
